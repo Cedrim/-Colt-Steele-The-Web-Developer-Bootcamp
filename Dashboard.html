@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- BOXICON ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- SWIPER (para rolar imagens) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Dashboard.css" />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <!-- <header id="header"> -->
+      <header id="header">
+      <nav class="navigation">
+        <i class='bx bx-menu'></i>
+        <img src="./icomoon/SVG/steam2.svg" class="ibagi"/><a class="steam_title" href="#">
+          Steam <span>BR</span></a> 
+          <div class="menu">
+        <ul class="grid">
+            
+            <li><img src="./icomoon/SVG/cart.svg" /> <a href="#">Loja</a></li>
+            <li>
+              <img src="./icomoon/SVG/users.svg" /> <a href="#">Comunidade</a>
+            </li>
+            <li>
+              <img src="./icomoon/SVG/bookmarks.svg" /> <a href="#">Sobre</a>
+            </li>
+            <li>
+              <img src="./icomoon/SVG/earth.svg" /> <a href="#">Suporte</a>
+            </li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <!-- Criar classe "toggle" para mudar cor e aumentar tamanho do menu -->
+        <div class="toggle icon-close"></div>
+      </nav>
+      </header>
+    <!-- </header> -->
+
+    <!-- ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ DIVISOR PARA TOGGLE MENU ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ -->
+
+      <!-- <nav class="toggle_nav"> NAV MAYBE NOT NEEDED -->
+        <div class="toggle_menu">
+          <!-- Menu -->
+          <ul class="toggle_nav">
+            <li><a class="toggle_title" href="#home"> Iniciar Sessão </a></li>
+            <li><a class="toggle_title" href="#"> Loja </a></li>
+            <li><a class="toggle_title" href="#"> Comunidade </a></li>
+            <li><a class="toggle_title" href="#"> Apoio </a></li>
+            <li><a class="toggle_title" href="#"> Alterar Idioma </a></li>
+          </ul>
+
+          <!-- <footer> Valve Corporation </footer> -->
+        </div>
+        <!-- Menu -->
+        <div class="toggle icon_open"></div>
+        <!-- Criar classe "toggle" para mudar cor e aumentar tamanho do menu -->
+        <div class="toggle icon-close"></div>
+      <!-- </nav> NAV MAYBE NOT NEEDED -->
+    
+    <!-- ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ DIVISOR PARA HIGHLIGHTS ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ -->
+    <!-- <div class="divider_1"></div> -->
+
+    <section id="container">
+      <div class="highlights">
+        <h2 class="title">DESTAQUES</h2> <br>
+        <img class="img_destaque" src="./Images/horizon.jpg" alt="horizon game">
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br><br><hr />
+      </div>
+    </section>
+
+    <!-- ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ DIVISOR PARA ESPECIAL OFFERS ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ -->
+    <!-- <div class="divider_1"></div> -->
+
+    <section id="container">
+      <div class="highlights">
+        <h2 class="title">PROMOÇÕES ESPECIAIS</h2> <br>
+        <img class="img_destaque" src="./Images/fall-guys-season-4.jpg" alt="horizon game">
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <br><br><hr />
+      </div>
+    </section>
+
+    <!-- ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ DIVISOR PARA COMUNIDADE RECOMENDA ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ -->
+    <div class="divider_1"></div>
+
+    <section id="container">
+<!-- Não precisa mais ser "container grid" porque o SWIPER tem width enorme -->
+<header>
+  <h2 class="title">A COMUNIDADE RECOMENDA</h2>
+</header>
+<div class="testimonials swiper-container">
+  <div class="swiper-wrapper">
+    <div class="testimonials swiper-slide">
+      <blockquote>
+        <p>
+          <span> &ldquo; </span>
+          <!-- Aspas diferenciadas -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quasi laborum a laudantium aperiam accusantium. Delectus,
+          cum iusto dolores, iure cupiditate rerum quidem
+          consequuntur, non impedit laudantium itaque voluptatum nobis
+          laborum!
+        </p>
+        <cite>
+          <img
+            src="https://randomuser.me/api/portraits/women/20.jpg"
+            alt="Mulher loira sorrindo"
+          />
+          Illyana Rasputin
+        </cite>
+      </blockquote>
+    </div>
+
+    <div class="testimonials swiper-slide">
+      <blockquote>
+        <p>
+          <span> &ldquo; </span>
+          <!-- Aspas diferenciadas -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Quasi laborum a laudantium aperiam accusantium. Delectus,
+          cum iusto dolores, iure cupiditate rerum quidem
+          consequuntur, non impedit laudantium itaque voluptatum nobis
+          laborum!
+        </p>
+        <cite>
+          <img
+            src="https://randomuser.me/api/portraits/women/82.jpg"
+            alt="Mulher ruiva sorrindo"
+          />
+          Jean Gray
+        </cite>
+      </blockquote>
+    </div>
+
+
+  <div class="testimonials swiper-slide">
+    <blockquote>
+      <p>
+        <span> &ldquo; </span>
+        <!-- Aspas diferenciadas -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        laborum a laudantium aperiam accusantium. Delectus, cum iusto
+        dolores, iure cupiditate rerum quidem consequuntur, non
+        impedit laudantium itaque voluptatum nobis laborum!
+      </p>
+      <cite>
+        <img
+          src="https://randomuser.me/api/portraits/women/90.jpg"
+          alt="Mulher japonesa sorrindo"
+        />
+        Asuka Kazama
+      </cite>
+    </blockquote>
+  </div>
+
+  <div class="swiper-pagination"></div>
+
+</div>
+</div>
+</section>
+
+    </section>
+    
+
+    <!-- ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ DIVISOR PARA SIDEBAR ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ -->
+
+    <div class="divider_1"></div>
+    
+    <section id="sidebar"> 
+      <div class="logo">
+        <ul class="nav_list">
+          <li>
+            <a href="#"> 
+              <span class="titulo_sidebar"> Recomendado </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-body'></i>
+              <span> Amigos </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-user-pin'></i>
+              <span> Curadores </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#">  
+              <i class='bx bx-purchase-tag-alt'></i> 
+              <span>Marcadores</span> 
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="titulo_sidebar"> Filas de Descoberta </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-chat'></i>
+              <span>Recomendações</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-mail-send' ></i>
+              <span>Novos Lançamentos</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <span class="titulo_sidebar"> Categorias </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-bar-chart-alt-2'></i>
+              <span> Mais Vendidos </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-plus-medical'></i>
+              <span> Novidades </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-news'></i>
+              <span> Próximos Lançamentos </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-money-withdraw'></i>
+              <span> Promoções </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-chevron-down-square'></i>
+              <span> Realidade Virtual </span> 
+            </a>
+          </li>
+          <li>
+            <a href="#"> 
+              <i class='bx bx-joystick'></i>
+              <span> Compatíveis com Comandos </span> 
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <p>Testando menu fixed</p>
+    <br /><br /><br /><br /><br /><br /><br />
+    <p>Testando menu fixed</p>
+
+    <!-- HABILITAR SWIPER -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="Dashboard.js"></script>
+  </body>
+</html>

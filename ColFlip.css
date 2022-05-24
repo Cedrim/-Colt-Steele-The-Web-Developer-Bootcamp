@@ -1,0 +1,44 @@
+/* ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ GLOBAL ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ */
+body {
+  background-color: lightslategray;
+}
+
+span {
+  margin-top: 2rem;
+  padding: 5rem;
+  font-size: 5rem;
+}
+
+/* ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ CLASSES ◘◘◘◘◘◘◘◘◘◘◘◘◘◘◘ */
+
+.container {
+  background-color: lightgray;
+  max-width: 640px;
+  margin: auto 2rem;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.Button {
+  padding: 0.5rem 1.3rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: lightseagreen;
+}
+
+.aumentar {
+  background-color: lightgreen;
+}
+
+.diminuir {
+  background-color: lightcoral;
+}
+
+.resetar {
+  background-color:lightcyan;
+}

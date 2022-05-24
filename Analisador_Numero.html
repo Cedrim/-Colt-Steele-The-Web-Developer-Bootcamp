@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- BOXICON ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- SWIPER (para rolar imagens) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Analisador_Numero.css" />
+
+    <title>Analisador Número</title>
+  </head>
+  <body>
+    
+    <section>
+      <div class="box">
+        <br><br><br>
+        <span>Digite um número (entre 1 e 100): </span><input type="number" id="numero" placeholder="digite um número">
+        
+        <button id="adicionar" onclick="add()"> Adicionar </button>
+        <br><br><hr><br>
+        <select id="select" size="10"></select>
+        <br><br>
+        <button id="calculo" onclick="calcular()"> Calcular</button>
+      </div>
+      <div id="resultado"></div>
+    </section>
+
+
+    <script src="Analisador_Numero.js"></script>
+  </body>
